@@ -3,7 +3,7 @@ Utilisation
 Configuration
 -------------
 En crontab :
-`0 * * * * /path/to/testBW/testBW.sh 120 >> ~/testBW.log && gnuplot /path/to/testBW/testBW-plot.conf`
+`0 * * * * /path/to/TestBandWidth/testBW.sh 120 2>/dev/null >> ~/testBW.log && gnuplot /path/to/TestBandWidth/testBW-plot.conf`
 
 Objectifs
 =========
